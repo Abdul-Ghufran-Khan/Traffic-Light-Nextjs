@@ -11,7 +11,7 @@ const TrafficLight = () => {
         if (prevLight === 'yellow') return 'green';
         if (prevLight === 'green') return 'red';
       });
-    }, 1500);
+    }, 1200);
 
     return () => clearInterval(interval);
   }, []);
